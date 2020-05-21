@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SUBSCRIBE</title>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width initial-scale=1.0"/>
+    </head>
+    <body>
+    <style>
+        body{
+            background-color: cadetblue;
+            padding: 100px;
+        }
+        h1{
+            font-family: "Adobe Garamond Pro";
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+            animation-name: subscribe;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            font-weight: bolder;
+            font-size: 48px;
+            font-family: "Bell MT";
+
+        }
+        h1:hover{
+            text-decoration: underline overline white;
+
+        }
+         @keyframes subscribe {
+            0%{background-color: #1d86c8;}
+             50%{background-color: #1ec867;}
+            100%{background-color: #2421af;}
+         }
+        .form{
+            text-align: center;
+            border: 5px double whitesmoke;
+
+        }
+        .label{
+            font-family: "Adobe Hebrew";
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+        .input{
+            width: 80%;
+            height: 32px;
+            font-family: "Adobe Song Std L";
+            font-size: 20px;
+            border: 2px dashed white;
+            border-radius: 100px;
+            margin-left: 5px;
+        }
+        .submit{
+            font-family: fantasy;
+            font-size: 20px;
+
+            background-color: white;
+            color: cadetblue;
+
+        }
+        .reset{
+            font-family: fantasy;
+            font-size: 20px;
+
+            background-color: white;
+            color: cadetblue;
+        }
+        .submit:hover{
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .reset:hover{
+            font-size: 22px;
+            cursor: pointer;
+
+        }
+
+    </style>
+
+        <h1>Subscribe to Our NewsLetters</h1>
+
+    <form class="form">
+        <label class="label">Your Name: </label><br/><br/>
+        <input type="text" class="input" name="fname"><br/><br/>
+        <label class="label">E-mail:</label><br/><br/>
+        <input type="email" class="input" name="email"><br/><br/>
+        <input type="submit" class="submit" value="SUBMIT" onclick="submit()"/><br/><br/>
+        <input type="reset" class="reset" value="RESET" onclick="reset()"/><br/>
+
+    </form>
+
+
+    </body>
+</html>

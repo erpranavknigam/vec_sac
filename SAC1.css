@@ -1,0 +1,385 @@
+body {
+    margin-left: 2px;
+    background-color: rgba(255, 147, 251, 0.31);
+
+}
+
+h1{
+    font-family: "fantasy";
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+h3{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+@media screen and (min-width: 601px)
+{
+    div.main{
+        font-size: 20px;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.main{
+        font-size: 8px;
+
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.sub{
+
+        font-size: 12px;
+        text-align: center;
+    }
+}
+.back{
+    background-image: url("back.png");
+    margin-left: 0px;
+
+}
+
+.topnav {
+    position: sticky;
+    overflow: hidden;
+    background-color: rgba(255, 119, 228, 0.22);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.topnav a:hover {
+    background-color: #dd61d6;
+    color: black;
+}
+
+.active {
+    background-color: #2421af;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+.footer{
+    margin-left: 45px;
+
+}
+@media screen and (max-width: 600px) {
+    .footer{
+        margin-left: 0px;
+        margin-top: 85px;
+    }
+}
+footer{
+    background-image: url("back.png");
+}
+.foothead{
+    color: white;
+    text-align: left;
+}
+@media screen and (min-width: 601px)
+{
+    div.sec1{
+        font-size: 15px;
+
+    }
+}
+@media screen and (max-width: 600px){
+    div.sec1 {
+        font-size: 12px;
+        margin-top: -10px;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 601px)
+{
+    div.sec2{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.sec2 {
+        font-size: 12px;
+        margin-top: -90px;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 601px)
+{
+    div.sec3{
+        font-size: 15px;
+        margin-top: -25px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.sec3 {
+        font-size: 12px;
+        margin-top: -110px;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 601px)
+{
+    div.hr{
+        width: 300px;
+        background-color: white;
+        height: 3px;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.hr {
+        width: 100px;
+        background-color: white;
+        margin-top: -10px;
+        height: 3px;
+    }
+
+}
+
+.sec11{
+    color: white;
+    margin-top: -15px;
+}
+.sec22  a{
+    text-decoration: none;
+    color: white;
+}
+.sec22 a:hover{
+    color: cadetblue;
+}
+.sec33  a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec33 a:hover {
+    color: cadetblue;
+}
+#foot2 {
+    background-image: url("back.png");
+    overflow-y: hidden;
+    overflow-x: visible;
+
+}
+@media screen and (min-width: 601px)
+{
+    div.f2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.f2 {
+        font-size: 12px;
+    }
+
+}
+.copyright
+{
+    font-family: "Cambria Math";
+    color: white;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    color: blanchedalmond;
+}
+h4{
+    margin-top: -15px;
+    color: white;
+    background-color: blue;
+    width: 350px;
+    border-radius: 0 10px 0 0;
+    font-size: 18px;
+}
+@media screen and (min-width: 601px) {
+    h4{
+       font-size: 20px;
+        width: 300px;
+    }
+}
+.calander{
+    margin-top: -20px;
+    border-radius: 0 10px 0 0;
+    width: 350px;
+    height: 250px;
+    margin-left: 0px;
+}
+@media screen and (min-width: 601px) {
+    .calander{
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .calander{
+        width: 350px;
+        height: 300px;
+        margin-left: 0px;
+
+    }
+}
+
+iframe{
+    width: 200%;
+    margin-left: 200px;
+    height: 250px;
+}
+@media screen and (max-width: 600px) {
+    iframe{
+        width: 100%;
+        height: 250px;
+        margin-left: 10px;
+    }
+}
+@keyframes map  {
+    0%{color: white;}
+    20%{color: #15a9c8;}
+    40%{color: #c87dbf;}
+    60%{color: #1ec867;}
+    80%{color: #c88a97;}
+    100%{color: #c4c4c8;}
+}
+@-moz-keyframes map  {
+    0%{color: white;}
+    20%{color: #15a9c8;}
+    40%{color: #c87dbf;}
+    60%{color: #1ec867;}
+    80%{color: #c88a97;}
+    100%{color: #c4c4c8;}
+}
+.maphead{
+    animation-name: map;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.notehead{
+    font-size: 26px;
+    font-family: SansSerif;
+    font-weight: bolder;
+
+    opacity: 0.7;
+
+
+}
+.note{
+    font-size: 16px;
+    font-family: Cambria;
+    font-weight: bold;
+    opacity: 0.6;
+
+
+}
+@media screen and (max-width: 600px) {
+    .notehead{
+        font-size: 24px;
+        opacity: 0.7;
+        margin-top: -30px;
+        margin-left: 3px;
+    }
+    .note{
+        font-size: 16px;
+        opacity: 0.5;
+        margin-left: 3px;
+    }
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px double blue;
+}
+@media screen and (max-width: 600px){
+    #logo{
+        width: 200px;
+        height: 200px;
+    }
+}
+.table{
+    float: left;
+    margin-left: 400px;
+
+    margin-top: -300px;
+    background-color: #15a9c8;
+    font-family: SansSerif;
+    color: white;
+}
+.table:hover{
+    background-color: #1d86c8;
+    color: #bcdff5;
+}
+@media screen and (max-width: 600px) {
+    .table{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+}
+.first{
+    width: 300px;
+
+}
+.second{
+    width: 300px;
+}
+.third{
+    width: 300px;
+}
+.inside:hover{
+    cursor: not-allowed;
+}
+
+button{
+    float: right;
+}
+
+
+
+
